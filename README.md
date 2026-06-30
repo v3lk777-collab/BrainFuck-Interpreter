@@ -29,23 +29,24 @@ Make sure you have a C++ compiler installed (like `g++` / GCC or Clang).
 ### Compilation
 Open your terminal in the directory containing `main.cpp` and run:
 ```bash
-g++ -O3 -o bf_interpreter main.cpp
+g++ main.cpp -o build/brainfuck
 ```
 
 ### Execution
 Run the compiled binary:
 ```bash
-./bf_interpreter
+./build/brainfuck.exe ./example/main.bf
 ```
 
 ## 📝 Example Code
-The default script included in `main.cpp` is the classic "Hello World!" program:
+The default script included in `example/main.bf` is the classic "Hello World!" program:
 ```brainfuck
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
 ```
 
 ## 📜 License
-**Mohammmed Tamer Mohammed Ahmed El-Azab Nour**
-**GPL v3**
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+Copyright © 2026 **Mohammed Tamer Mohammed Ahmed El-Azab Nour**
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
