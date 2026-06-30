@@ -72,6 +72,7 @@ public:
                             else if (code[ip] == ']') loop_count--;
                         }
                     }
+                    
                     break;
                 
                 case ']':
@@ -84,6 +85,7 @@ public:
                             else if (code[ip] == '[') loop_count--;
                         }
                     }
+
                     break;
         }
     }
