@@ -48,4 +48,4 @@ The default script included in `main.cpp` is the classic "Hello World!" program:
 **Mohammmed Tamer Mohammed Ahmed El-Azab Nour**
 **GPL v3**
 
-This project is open-source and free to use. Feel free to modify, extend, or integrate it into your own compiler/low-level tooling pipelines!
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
